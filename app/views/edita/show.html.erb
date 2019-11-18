@@ -1,24 +1,43 @@
-<%= render('navigation/top_nav') %>
 
 
-<div class="row">
-  <div class="col col-3">
-    <%= render('about_me') %>
-  </div>
-  <div class="col col-9">
-    <h1>About Edita</h1>
 
-    <p>This is my</p>
-    <%= @edita[:first_name] %> <br>
-    <%= @edita[:last_name] %> <br>
-    <%= @edita[:age] %> <br>
-    <%= @edita[:street] %> <br>
-    <%= @edita[:city] %> <br>
-    <hr>
-
-    <% @users.each_with_index do |user, i| %>
-     <%= i + 1 %>. <strong><%= user[:first_name] %></strong> <%= user[:last_name] %><br>
-    <% end %>
-
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Fluid jumbotron</h1>
+    <p class="lead text-center">Edita, dokončete tyto kroky a využijte LinkedIn na maximum</p>
   </div>
 </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-3">
+       <%= render('left_column') %>
+    </div>
+    <div class="col-md-9">
+      <%= render('content') %>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<script type="text/javascript" charset="utf-8">
+    window.onscroll = function () {
+        myFunction()
+    };
+
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky");
+        } else {
+            navbar.classList.remove("sticky");
+        }
+    }
+</script>
+
