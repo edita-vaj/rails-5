@@ -1,4 +1,5 @@
 /*
+ *= require font-awesome
  *= require_tree .
  *= require_self
  */
@@ -39,4 +40,12 @@ card-body {
 }
 jumbotron jumbotron-fluid{
     margin: 100px;
+}
+
+.user .first-name {
+    colore: red;
+}
+
+.user .last-name {
+    color: blue;
 }
