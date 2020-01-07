@@ -1,94 +1,144 @@
-
-#gmail {
-
-  .btn-new-email {
-
-  }
-
-  .col-12 {
-    background-color: #EFEFEF;
-    margin: 10px;
-    padding: 20px;
-  }
-
-  #mySidenav {
-    text-align: left;
-  }
-
-  .nav-link {
-    color: #666666;
-    font-size: medium;
-    margin: -1px;
-    font-size: small;
-  }
-
-  .nav-link:hover {
-    background-color: lavender;
-    border-bottom-right-radius: 25px;
-    border-top-right-radius: 25px;
-    width: 160px;
-  }
-
-  .dropbtn {
-    background-color: lightgrey;
-    color: black;
-    font-size: medium;
-    border-bottom-right-radius: 5px;
-    border-top-right-radius: 5px;
-  }
-
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: white;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-  }
-
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-
-  .dropdown:hover .dropbtn {
-    background-color: lightgrey;
-  }
-
-  .dropbtn {
-    background-color: white;
-  }
-
-  .btn-default {
-    background-color: white;
-  }
-
-  .btn-default:hover {
-    background-color: red;
-  }
-
-  .new-email {
-    background-color: white;
-    border-radius: 25px;
-    padding: 5px;
-    width: 150px;
-    height: 50px;
-    border: 1px solid gray;
-    box-sizing: border-box;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px
-  }
-
-  #v-pills-inbox-tab {
-    background-color: lightpink;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
-    width: 160px;
-  }
-}
-
+//
+//#gmail {
+//
+//  .col-12 {
+//    background-color: #EFEFEF;
+//    margin: 10px;
+//    padding: 20px;
+//  }
+//
+//
+//  input.form-control {
+//    background-color: lavender;
+//    border-right: transparent;
+//    border-left: transparent;
+//  }
+//
+//  .input {
+//    border: none;
+//    border-radius: 20px;
+//    box-shadow: none;
+//    height: 40px;
+//    width: 35%;
+//    text-align: left;
+//    margin: auto;
+//    padding: 10px;
+//    text-decoration: none;
+//    color: #999999;
+//  }
+//
+//  .input-group {
+//    border-radius: 20px;
+//  }
+//
+//  .btn.btn-outline-secondary:hover {
+//    background-color: lightsteelblue;
+//  }
+//
+//  .btn.btn-outline-secondary {
+//    border-radius: 10px;
+//    border: 1px solid lightgrey;
+//    background-color: lavender;
+//    position: relative;
+//  }
+//
+//  .btn {
+//    border-color: transparent;
+//    background-size: 21px 21px;
+//    background-repeat: no-repeat;
+//    background-position: right;
+//    border-radius: 25px;
+//    border-right: none;
+//    border-left: none;
+//  }
+//
+//
+//  #mySidenav {
+//    text-align: left;
+//  }
+//
+//  .nav-link {
+//    color: #666666;
+//    font-size: medium;
+//    margin: -1px;
+//  }
+//
+//  .nav-link:hover {
+//    background-color: lavender;
+//    border-bottom-right-radius: 25px;
+//    border-top-right-radius: 25px;
+//    width: 160px;
+//  }
+//
+//  #nav-pills-inbox-tab {
+//    background-color: lightpink;
+//    border-top-right-radius: 25px;
+//    border-bottom-right-radius: 25px;
+//    width: 160px;
+//  }
+//
+//  .new-email {
+//    background-color: white;
+//    border-radius: 25px;
+//    padding: 5px;
+//    width: 150px;
+//    height: 50px;
+//    border: 1px solid gray;
+//    box-sizing: border-box;
+//    margin-top: 10px;
+//    margin-bottom: 10px;
+//    margin-left: 10px
+//  }
+//
+//  .dropdown-content {
+//    display: none;
+//    position: absolute;
+//    background-color: white;
+//    min-width: 160px;
+//    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+//    z-index: 1;
+//  }
+//
+//
+//  .dropbtn {
+//    background-color: lightgrey;
+//    color: black;
+//    font-size: medium;
+//    border-bottom-right-radius: 5px;
+//    border-top-right-radius: 5px;
+//  }
+//
+//  .dropdown {
+//    position: relative;
+//    display: inline-block;
+//  }
+//
+//
+//  .dropdown:hover .dropdown-content {
+//    display: block;
+//  }
+//
+//  .dropdown:hover.dropbtn {
+//    background-color: lightgrey;
+//  }
+//
+//  .dropbtn {
+//    background-color: white;
+//  }
+//
+//  .btn-default {
+//    background-color: white;
+//  }
+//}
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
