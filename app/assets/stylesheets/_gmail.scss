@@ -1,4 +1,106 @@
-//
+#gmail {
+
+  header {
+    border-bottom: 1px solid gray;
+  }
+  #top-search {
+    border: 1px solid #f0f2f7;
+    background-color: #f0f2f7;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-right: 50px;
+  }
+
+
+
+    input,
+    .btn {
+      border: none;
+    }
+
+    input {
+      background-color: transparent;
+      height: 50px;
+    }
+    .btn.btn-outline-secondary {
+      border-radius: 50px;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-top: 10px;
+      height: 35px;
+      width: 35px;
+      padding-bottom: 30px;
+    }
+    .btn.btn-outline-secondary:hover {
+      background-color: #d9dadb;
+    }
+
+
+
+  }
+
+  .nav-folders {
+
+    .list-group-item {
+      border-top-right-radius: 25px;
+      border-bottom-right-radius: 25px;
+      border-color: transparent;
+      color: #666666;
+      padding: 0.15rem 1.25rem;
+
+      .badge {
+        position: relative;
+        top: 3px;
+      }
+
+      &.active {
+        background-color: #fce8e6;
+        color: red;
+        border: transparent;
+        border-radius: 25px;
+      }
+    }
+    .list-group-item:hover {
+      background-color: #f0f2f7;
+    }
+
+
+  }
+
+  .new-email {
+    background-color: white;
+    border-radius: 25px;
+    padding: 5px;
+    width: 150px;
+    height: 50px;
+    border: 1px solid lightgrey;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    box-shadow:  0 1px 6px 0 rgba(32, 33, 36, .28);
+
+  }
+  hr {
+    width: auto;
+
+  }
+.fa {
+  margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 //#gmail {
 //
 //  .col-12 {
@@ -57,13 +159,13 @@
 //    text-align: left;
 //  }
 //
-//  .nav-link {
+//  .list-group-item {
 //    color: #666666;
 //    font-size: medium;
 //    margin: -1px;
 //  }
 //
-//  .nav-link:hover {
+//  .list-group-item:hover {
 //    background-color: lavender;
 //    border-bottom-right-radius: 25px;
 //    border-top-right-radius: 25px;

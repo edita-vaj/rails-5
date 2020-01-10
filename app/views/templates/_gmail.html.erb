@@ -1,77 +1,26 @@
 <div id="gmail" class="container-fluid">
-  <div class="row mt-2">
-    <div class="col-3">col-3</div>
-
-    <hr>
-    <div class="col-6">
-      <div id="top-search" class="input-group mb-5">
-        <div class="input-group-prepend" id="icon-search">
-          <button class="btn btn-outline-secondary" type="button">
-            <i class="fa fa-search"></i>
-          </button>
-        </div>
-        <input type="text" class="form-control" placeholder="Search Google or type URL" aria-label="Example text with two button addons" aria-describedby="button-addon3">
-        <div class="input-group-append" id="">
-          <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-            <div role="separator" class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Separated link</a>
-          </div>
-        </div>
-      </div>
+  <header class="row">
+    <div class="col-2">col-3</div>
+    <div class="col-8">
+      <%= render('templates/gmail/search') %>
     </div>
-
-
-    <div class="col-3">col-3</div>
-    <hr>
-  </div>
-  <div class="row mt-2 ">
+    <div class="col-2">test</div>
+  </header>
+  <div class="row mt-2">
     <div class="col-2">
       <div class="row">
-        <button class="new-email">Compose</button>
+        <button class="new-email">
+          <img src="https://www.gstatic.com/images/icons/material/colored_icons/1x/create_32dp.png"> Compose
+        </button>
       </div>
       <div class="row nav-folders">
-        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-          <a class="nav-link" id="v-pills-inbox-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true"><i class="fa fa-user"></i>
-            Inbox <span class="badge badge-light pull-right">4</span></a>
-          <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Starred</a>
-          <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Snoozed</a>
-          <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
-          <a class="nav-link" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Important</a>
-          <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Sent</a>
-          <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Drafts</a>
-          <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Trash</a>
-          <a class="nav-link" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Categories</a>
-          <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Personal</a>
-          <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Travel</a>
-          <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Unvanted</a>
-
-          <a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
-          <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a>
-          <a href="#"><i class="fa fa-fw fa-user"></i> Login</a>
-
-          <div class="dropdown">
-            <button class="dropbtn btn btn-default">More</button>
-            <div class="dropdown-content">
-              <a href="#" class="dropdown-item">Chat</a>
-              <a href="#" class="dropdown-item">Sheduled</a>
-              <a href="#" class="dropdown-item">Spams</a>
-              <a href="#" class="dropdown-item">Receips</a>
-              <a href="#" class="dropdown-item">Work</a>
-              <a href="#" class="dropdown-item">Manage labels</a>
-            </div>
-          </div>
-        </div>
+        <div class="col-12"><%= render('templates/gmail/side_folders') %></div>
       </div>
     </div>
+    <div class="col-10">foo</div>
   </div>
 </div>
-<div class="col-10">.col-10<br>columns continue along the new line.</div>
-</div>
-</div>
+
 
 
 
