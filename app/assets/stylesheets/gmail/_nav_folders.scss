@@ -1,0 +1,26 @@
+.nav-folders {
+
+  .list-group-item {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-color: transparent;
+    color: #666666;
+    padding: 0.15rem 1.25rem;
+
+    .badge {
+      position: relative;
+      top: 3px;
+    }
+
+    &.active {
+      background-color: #fce8e6;
+      color: red;
+      border: transparent;
+      border-radius: 25px;
+    }
+  }
+  .list-group-item:hover {
+    background-color: #f0f2f7;
+  }
+
+}
