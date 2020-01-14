@@ -1,0 +1,56 @@
+header {
+  border-bottom: 1px solid lightgrey;
+
+  .fa.fa-bars {
+    height: 1rem;
+    font-size: 1.5em;
+    cursor: pointer;
+    float: left;
+    margin-top: 12px;
+  }
+
+  .mail-image {
+    height: 3rem;
+    font-size: 3.75em;
+    cursor: pointer;
+    color: #666666;
+    padding-right: 20px;
+  }
+
+  .top-left-gmail-icon {
+    color: #666666;
+    font: 13px/27px Roboto, RobotoDraft, Arial, sans-serif;
+    font-size: larger;
+    float: right;
+    margin-top: 12px;
+    padding-right: 20px;
+    cursor: pointer;
+  }
+
+  .fa.fa-question-circle-o {
+    height: 1rem;
+    font-size: 1.5em;
+    cursor: pointer;
+    padding-left: 35px;
+    padding-top: 5px;
+  }
+
+  .dotted-menu {
+    height: 1rem;
+    font-size: 3.75em;
+    cursor: pointer;
+    padding-left: 15px;
+    margin-top: -10px;
+  }
+
+  .e-letter-menu {
+    height: 2rem;
+    font-size: 3.75em;
+    cursor: pointer;
+    float: right;
+  }
+
+  .list-group-item:last-child {
+    border: transparent;
+  }
+}
