@@ -10,10 +10,10 @@
     </div>
     <div class="col-2">
       <div class="list-group-item">
-      <i class="fa fa-question-circle-o" aria-hidden="true"></i>
-      <img src="https://cdn3.iconfinder.com/data/icons/essentials-set-2/17/007-menu-512.png" class="dotted-menu">
-      <img src="https://macstickers.com/wp-content/uploads/2018/07/Letter-E.png" class="e-letter-menu">
-    </div>
+        <i class="fa fa-question-circle-o" aria-hidden="true"></i>
+        <img src="https://cdn3.iconfinder.com/data/icons/essentials-set-2/17/007-menu-512.png" class="dotted-menu">
+        <img src="https://macstickers.com/wp-content/uploads/2018/07/Letter-E.png" class="e-letter-menu">
+      </div>
     </div>
 
   </header>
@@ -28,11 +28,26 @@
         <div class="col-12"><%= render('templates/gmail/side_folders') %></div>
       </div>
     </div>
-    <div class="col-10">
-      <div class="middle-column email-list">
-      <i class="fa fa-square-o" aria-hidden="true"></i>
+    <div class="col-9">
+      <div class="middle-column email-list clearfix">
+        <%= render('templates/gmail/email_toolbar') %>
       </div>
+      <hr>
+<!--      <div class="btn-toolbar float-left">-->
+<!--        <button type="button" class="btn btn-light" id="primary-button">-->
+<!--          <i class="fa fa-envelope-square" aria-hidden="true"></i>Primary-->
+<!--        </button>-->
+<!--        <button type="button" class="btn btn-light" id="social-button"><i class="fa fa-users" aria-hidden="true"></i>Social-->
+<!--        </button>-->
+<!--        <button type="button" class="btn btn-light" id="promotions-button"><i class="fa fa-tag" aria-hidden="true"></i>Promotions-->
+<!--        </button>-->
+<!--      </div>-->
+      <%= render('templates/gmail/content') %>
     </div>
+    <div class="col-1">
+      one
+    </div>
+    <hr>
   </div>
 </div>
 

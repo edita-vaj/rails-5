@@ -10,6 +10,13 @@
     .badge {
       position: relative;
       top: 3px;
+      background-color:  transparent;
+    }
+    .badge:hover {
+      background-color:  #f0f2f7;
+    }
+    .badge:focus {
+      background-color:  #fce8e6;
     }
 
     &.active {
