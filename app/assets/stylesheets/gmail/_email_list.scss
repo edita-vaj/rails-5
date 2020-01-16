@@ -74,11 +74,11 @@
 }
 
 #primary-button:hover {
-  background-color: #f0f2f7;
+  background-color: $gray-default;
 }
 
 #primary-button:focus {
-  background-color: #f0f2f7;
+  background-color: $gray-default;
   color: red;
   border-bottom-color: red;
   border-bottom-style: double;
@@ -96,10 +96,10 @@
   color: #666666;
 }
 #social-tab:hover {
-  background-color: #f0f2f7;
+  background-color: $gray-default;
 }
 #social-tab:focus {
-  background-color: #f0f2f7;
+  background-color: $gray-default;
   color: blue;
   border-bottom-color: blue;
   border-bottom-style: double;
@@ -118,10 +118,10 @@
 }
 
 #promotions-tab:hover {
-  background-color: #f0f2f7;
+  background-color: $gray-default;
 }
 #promotions-tab:focus {
-  background-color: #f0f2f7;
+  background-color: $gray-default;
   color: green;
   border-bottom-color: green;
   border-bottom-style: double;
