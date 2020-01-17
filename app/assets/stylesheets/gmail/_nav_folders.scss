@@ -6,6 +6,7 @@
     border-color: transparent;
     color: #666666;
     padding: 0.15rem 1.25rem;
+    margin-left: -1rem;
 
     .badge {
       position: relative;
@@ -18,12 +19,16 @@
     .badge:focus {
       background-color:  #fce8e6;
     }
+    .badge:active {
+      color: red;
+    }
 
     &.active {
       background-color: #fce8e6;
       color: red;
       border: transparent;
-      border-radius: 25px;
+      border-top-right-radius: 25px;
+      border-bottom-right-radius: 25px;
     }
   }
   .list-group-item:hover {

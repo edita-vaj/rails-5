@@ -28,4 +28,7 @@
   .btn.btn-outline-secondary:hover {
     background-color: #d9dadb;
   }
+  .btn.btn-outline-secondary:focus {
+    box-shadow: none;
+  }
 }
