@@ -1,5 +1,4 @@
 #top-search {
-  border: 1px solid $gray-default;
   background-color: $gray-default;
   border-radius: 10px;
   margin-top: 5px;
@@ -9,6 +8,7 @@
   input,
   .btn {
     border: none;
+    box-shadow:none;
   }
 
   input {
@@ -27,8 +27,5 @@
   }
   .btn.btn-outline-secondary:hover {
     background-color: #d9dadb;
-  }
-  .btn.btn-outline-secondary:focus {
-    box-shadow: none;
   }
 }

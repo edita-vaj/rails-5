@@ -3,7 +3,7 @@ $gray-default: #f0f2f7;
 #gmail {
 
   @import "gmail/top_search";
-  @import "gmail/nav_folders";
+  @import "gmail/side_folders";
   @import "gmail/header";
   @import "gmail/email_list";
 
@@ -29,4 +29,5 @@ $gray-default: #f0f2f7;
   .fa {
     margin-right: 20px;
   }
+
 }
