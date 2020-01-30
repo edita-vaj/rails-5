@@ -1,5 +1,26 @@
-.google {
+#google {
 
+  $goolge-red: red;
+
+  ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+  }
+
+  li {
+    float: right;
+    padding: 15px;
+    text-decoration: none;
+  }
+
+  li a {
+    display: block;
+    color: darkslategrey;
+  }
+  .google-apps {
+
+  }
 
   form {
     text-align: center;
