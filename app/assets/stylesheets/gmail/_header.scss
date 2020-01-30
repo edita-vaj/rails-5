@@ -30,6 +30,7 @@ header {
     margin-right: 15px;
     border-radius: 25px;
     width: 5rem;
+    background-color: transparent;
   }
   #mail-image {
     width: 5rem;
@@ -48,34 +49,86 @@ header {
     margin-bottom: 15px;
     padding-right: 20px;
     border-color: transparent;
+    background-color: transparent;
 
   }
 
-  .fa.fa-question-circle-o {
-    height: 1rem;
-    font-size: 1.5em;
-    padding-top: 5px;
-    padding-left: 10px;
-    width: 1rem
+  #question-button {
+    font-size: 1.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: 16px;
+    background-color: transparent;
+    border-radius: 25px;
+    padding-top: 3px;
+    padding-left: 8.5px;
+    border: none  ;
+    margin-left: 2px;
+  }
+  #question-button:hover {
+    background-color: $gray-default;
+  }
+  #question-button:focus {
+    box-shadow: none;
+    background-color: $gray-default;
   }
 
-  .dotted-menu {
+  #dotted-menu {
+    margin-top: 12px;
+    background-color: transparent;
+    width: 1rem;
     height: 1rem;
-    font-size: 3.75em;
+  }
+  #dotted-button {
+    border-radius: 25px;
+    background-color: transparent;
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-top: 16px;
+    padding-top: 1px;
+    padding-right: 12px;
+    padding-left: 11px;
+    padding-bottom: 11px;
+    border: none;
+    margin-right: 2px;
+  }
+  #dotted-button:hover {
+    background-color: $gray-default;
+  }
+  #dotted-button:focus {
+    box-shadow: none;
+    background-color: $gray-default;
   }
 
   .e-letter-menu {
     height: 2rem;
-    font-size: 3.75em;
+    border-radius: 25px;
+    background-color: transparent;
+    margin-left:-8px;
+    margin-top: -2px;
+  }
+  #e-menu {
+    background-color: transparent;
+    margin-top: 16px;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 25px;
+    border: none;
+  }
+  #e-menu:hover {
+    background-color: $gray-default;
+  }
+  #e-menu:focus {
+    box-shadow: none;
+    background-color: $gray-default;
+  }
+
+  .btn-light:hover {
+    background-color: $gray-default;
   }
 
   #list-group-item:last-child {
     border: transparent;
-  }
-  .btn.btn-light {
-    background-color: transparent;
-    box-shadow: none;
-    border: none;
   }
 
 }

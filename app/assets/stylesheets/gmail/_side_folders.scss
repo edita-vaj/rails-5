@@ -8,19 +8,23 @@
     padding: 0.15rem 1.25rem;
     margin-left: -1rem;
 
+    .list-group-item:hover {
+      background-color: $gray-default;
+    }
     .badge {
       position: relative;
       top: 3px;
       background-color:  transparent;
     }
     .badge:hover {
-      background-color:  $gray-default;
+      background-color: transparent;
     }
     .badge:focus {
       background-color:  #fce8e6;
+      color: red;
     }
     .badge:active {
-      color: red;
+      color:red;
     }
 
     &.active {
@@ -31,11 +35,18 @@
       border-bottom-right-radius: 25px;
     }
   }
-  .list-group-item:hover {
+  #v-pills-settings-tab {
+    background-color: transparent;
+    color: #666666;
+  }
+  #v-pills-settings-tab:hover {
     background-color: $gray-default;
   }
-
-  #more-menu {
-    background-color: red;
+  #v-pills-settings-tab:active {
+    color: red;
+  }
+  #v-pills-settings-tab:focus {
+    background-color: #fce8e6;
+    color: red;
   }
 }

@@ -3,9 +3,9 @@
   <div class="row mt-2">
     <div class="col-2">
       <div class="row">
-        <button class="new-email">
+        <div class="btn btn-warning" id="new-email">
           <img src="https://www.gstatic.com/images/icons/material/colored_icons/1x/create_32dp.png"> Compose
-        </button>
+        </div>
       </div>
       <div class="row nav-folders">
         <div class="col-12"><%= render('templates/gmail/side_folders') %></div>
@@ -19,17 +19,23 @@
       <%= render('templates/gmail/content') %>
     </div>
     <div class="col-1">
-      <button class="btn btn-light" type="button" data-toggle="dropdown">
-        <img src="https://previews.123rf.com/images/rodakm/rodakm1205/rodakm120500007/13529388-independence-day-calendar-icon-is-blue-on-a-white-background.jpg" class="calendar-menu" aria-hidden="true" style="height: 2rem; width: 2rem">
+      <button class="btn btn-light" id="calendar-button" type="button" data-toggle="dropdown">
+        <img src="https://collegeinfogeek.com/wp-content/uploads/2016/08/Google_Calendar_Logo.png" class="calendar-menu" aria-hidden="true">
       </button>
-      one
+      <button class="btn btn-light" id="file-button" type="button" data-toggle="dropdown">
+        <img aria-hidden="true" class="file-menu" src="https://www.google.com/images/icons/product/keep-512.png">
+      </button>
+      <button class="btn btn-light" id="tasks-button" type="button" data-toggle="dropdown">
+        <img aria-hidden="true" class="tasks-menu" src="https://lh3.googleusercontent.com/62OzNxLonba70XxMFP3X3dsdNS9lvG2xf5TqfhYDaw9iFn5as9gVSU23ExfCLoZXkMWA=s180">
+      </button>
+      <hr>
+      <button class="btn btn-light" id="plus-button" type="button" data-toggle="dropdown">
+      <i class="fa fa-plus" aria-hidden="true"></i>
+      </button>
     </div>
     <hr>
   </div>
 </div>
-
-
-
 
 
 

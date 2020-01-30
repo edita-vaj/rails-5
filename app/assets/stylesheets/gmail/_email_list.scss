@@ -1,132 +1,161 @@
 
-.email-list {
+.email-list-content {
 
-  .middle-column.email-list-clearfix {
-    background-color: #B00100;
-  }
-
-  .fa.fa-square-o {
-    font-size: 1.25rem;
-    padding-top: 4px;
-  }
-  .btn-light:hover {
-    background-color: red;
-  }
-
-
-  .fa.fa-caret-down {
-    font-size: 1rem;
-    padding-left: 3px;
-  }
-
-
-  .fa.fa-repeat {
-    font-size: 1.15rem;
-    padding-right: 6px;
-  }
-
-  .fa.fa-ellipsis-v {
-    font-size: 1.25rem;
-    padding-left: 5px;
-    margin-top: 4px;
-  }
-
-  #caret-down-right {
-    padding-left: 3px;
-  }
-
-  .btn.btn-primary {
-    border-radius: 25px;
-    width: 2.5rem;
-    background-color: red;
-  }
-
-  .fa.fa-chevron-right {
-    padding-left: 4px;
-  }
-
-  .btn.btn-light {
+  #primary-tab {
+    width: 14rem;
+    height: 4rem;
+    margin-top: -17px;
     background-color: transparent;
-    border-radius: 25px;
-    width: 2.5rem;
     border-color: transparent;
-  }
-  .btn.btn-light:focus {
-    border-color: white;
-    text-decoration-line: none;
-    box-shadow: none;
+    text-align: center;
+    padding-top: 1.1rem;
+    color: #666666;
   }
 
-  .btn.btn-light:hover {
+  #primary-tab:hover {
     background-color: $gray-default;
   }
 
+  #primary-tab:focus {
+    background-color: transparent;
+    color: red;
+    border-bottom-color: red;
+    border-bottom-style: double;
+  }
 
-}
+  #primary-tab:active {
+    background-color: transparent;
+    color: red;
+    border-bottom-color: red;
+    border-bottom-style: double;
+  }
 
-#primary-button {
-  width: 14rem;
-  height: 4rem;
-  margin-top: -17px;
-  background-color: transparent;
-  border-color: transparent;
-  text-align: center;
-  padding-top: 1.1rem;
-  color: #666666;
-}
+  #social-tab {
+    width: 14rem;
+    height: 4rem;
+    margin-top: -17px;
+    background-color: transparent;
+    text-align: center;
+    padding-top: 1.1rem;
+    border-color: transparent;
+    color: #666666;
+  }
 
-#primary-button:hover {
-  background-color: $gray-default;
-}
+  #social-tab:hover {
+    background-color: $gray-default;
+  }
 
-#primary-button:focus {
-  background-color: $gray-default;
-  color: red;
-  border-bottom-color: red;
-  border-bottom-style: double;
+  #social-tab:focus {
+    background-color: transparent;
+    color: blue;
+    border-bottom-color: blue;
+    border-bottom-style: double;
+  }
+  #social-tab:active {
+    background-color: transparent;
+    color: blue;
+    border-bottom-color: blue;
+    border-bottom-style: double;
+  }
 
-}
+  #promotions-tab {
+    width: 14rem;
+    height: 4rem;
+    margin-top: -17px;
+    background-color: transparent;
+    border-radius: inherit;
+    text-align: center;
+    padding-top: 1.1rem;
+    border-color: transparent;
+    color: #666666;
+  }
 
-#social-tab {
-  width: 14rem;
-  height: 4rem;
-  margin-top: -17px;
-  background-color: transparent;
-  text-align: center;
-  padding-top: 1.1rem;
-  border-color: transparent;
-  color: #666666;
-}
-#social-tab:hover {
-  background-color: $gray-default;
-}
-#social-tab:focus {
-  background-color: $gray-default;
-  color: blue;
-  border-bottom-color: blue;
-  border-bottom-style: double;
-}
+  #promotions-tab:hover {
+    background-color: $gray-default;
+  }
 
-#promotions-tab {
-  width: 14rem;
-  height: 4rem;
-  margin-top: -17px;
-  background-color: transparent;
-  border-radius: inherit;
-  text-align: center;
-  padding-top: 1.1rem;
-  border-color: transparent;
-  color: #666666;
-}
+  #promotions-tab:focus {
+    background-color: transparent;
+    color: green;
+    border-bottom-color: green;
+    border-bottom-style: double;
+  }
+  #promotions-tab:active {
+    background-color: transparent;
+    color: green;
+    border-bottom-color: green;
+    border-bottom-style: double;
+  }
 
-#promotions-tab:hover {
-  background-color: $gray-default;
-}
-#promotions-tab:focus {
-  background-color: $gray-default;
-  color: green;
-  border-bottom-color: green;
-  border-bottom-style: double;
-}
+  tbody {
+    th {
+      input[type='checkbox'] {
+        position: relative;
+        top: 0.8rem;
+      }
+    }
+    .star-button .fa {
+      bottom: 2px;
+    }
+    .chevron-button.fa {
+      position: relative;
+    }
+  }
 
+  .chevron-button {
+    background-color: transparent;
+    width: 2.3rem;
+    height: 2.3rem;
+    border-radius: 25px;
+    border: none;
+    padding-right: 1px;
+    margin-top:-6px;
+    margin-left: -7px;
+  }
+  .fa.fa-chevron-right {
+    padding-left: 8px;
+  }
+
+
+  .chevron-button:hover {
+    background-color: $gray-default;
+  }
+
+  .star-button {
+    background-color: transparent;
+    width:  2.3rem;
+    height: 2.3rem;
+    border-radius: 25px;
+    box-shadow: none;
+    border-color: transparent;
+    margin-top: -6px;
+    margin-left: -7px;
+  }
+  .fa.fa-star-o {
+    padding-left: 3px;
+  }
+
+  .star-button:hover {
+    background-color: $gray-default;
+  }
+
+  #checkbox:hover {
+    background-color: $gray-default;
+  }
+
+  #checkbox {
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+
+  td {
+    padding-bottom: 1px;
+    font-size: medium;
+  }
+
+  th {
+    padding-top: 1px;
+    padding-bottom: 1px;
+  }
+}
 
