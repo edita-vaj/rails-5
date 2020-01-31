@@ -1,10 +1,11 @@
 <header>
-  <ul>
-    <li><a href="#">Gmail</a></li>
-    <li><a href="#">Images</a></li>
-    <li>
-      <button class="btn btn-light" id="dotted-button" type="button" data-toggle="dropdown">
-        <img src="https://cdn3.iconfinder.com/data/icons/essentials-set-2/17/007-menu-512.png" class="dotted-menu" aria-hidden="true" id="dotted-menu">
+
+  <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+    <div class="btn-group mr-2" role="group" aria-label="First group">
+      <button type="button" class="btn btn-secondary"><a href="#">Gmail</a></button>
+      <button type="button" class="btn btn-secondary"><a href="#">Images</a></button>
+      <button type="button" data-toggle="dropdown" class="btn btn-secondary" id="button-dotted">
+        <img src="https://cdn3.iconfinder.com/data/icons/essentials-set-2/17/007-menu-512.png" alt="#" class="dotted-menu" aria-hidden="true" id="menu-dotted">
       </button>
       <div class="dropdown-menu">
         <a class="dropdown-item" href="#"></a>
@@ -13,10 +14,8 @@
         <div role="separator" class="dropdown-divider"></div>
         <a class="dropdown-item" href="#">Separated link</a>
       </div>
-    </li>
-    <li>
-      <button class="btn btn-light" id="e-menu" type="button" data-toggle="dropdown">
-        <img src="https://macstickers.com/wp-content/uploads/2018/07/Letter-E.png" class="e-letter-menu" aria-hidden="true">
+      <button type="button" class="btn btn-secondary" id="menu-e" data-toggle="dropdown">
+        <img src="https://macstickers.com/wp-content/uploads/2018/07/Letter-E.png" alt="#" class="letter-e-menu" aria-hidden="true">
       </button>
       <div class="dropdown-menu">
         <a class="dropdown-item" href="#">Action</a>
@@ -25,7 +24,6 @@
         <div role="separator" class="dropdown-divider"></div>
         <a class="dropdown-item" href="#">Separated link</a>
       </div>
-      </div>
-    </li>
-  </ul>
+    </div>
+  </div>
 </header>

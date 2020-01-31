@@ -1,6 +1,6 @@
 
 #page-forms {
-  #signup-form {
+  #sign-up-form {
     padding: 20px;
     border: 1px solid #999999;
     border-radius: 5px;
@@ -15,7 +15,7 @@
   }
 
   .dropbtn {
-    background-color: lightgrey;
+    background-color: yellow;
     color: black;
     font-size: medium;
     border-bottom-right-radius: 5px;
@@ -32,7 +32,7 @@
     position: absolute;
     background-color: white;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     z-index: 1;
   }
 
@@ -61,7 +61,7 @@
     padding-left: 35px;
   }
   .btn-outline-primary {
-    margin-left: 0px;
+    margin-left: 1px;
   }
 
   .btn-outline-danger {
@@ -86,7 +86,7 @@
     background-color: #F7F7F7;
   }
   .date {
-    padding: 0px;
+    padding: 1px;
     border-radius: 5px;
     height: 39px;
     border-color: #BBBBBB;
