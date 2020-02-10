@@ -2,6 +2,8 @@
  *= require font-awesome
  *= require _gmail
  *= require _google
- *= require forms/_sign_up
+ *= require forms/_sign_up.scss
+ *= require forms/_remax
+ *= require forms/_presentation.scss
  *= require_self
  */

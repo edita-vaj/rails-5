@@ -1,0 +1,32 @@
+<div id="presentation">
+  <%= render('templates/presentation/header') %>
+  <main role="main">
+    <%= render('templates/presentation/intro') %>
+    <div class="album py-5 bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <%= render('templates/presentation/project',
+                       title: 'Google.com - search input', description: 'Html clone of the Google search homepage.',
+                       link: {url: '/templates/google'},
+                       img: { url: 'google-search.png'}) %>
+          </div>
+          <div class="col-md-4">
+            <%= render('templates/presentation/project',
+                       title: 'Gmail.com - Email client', description: 'Clone of the Google Gmail email client. ........',
+                       link: {url: '/templates/gmail'},
+                       img: { url: 'google-gmail.png'}) %>
+          </div>
+          <div class="col-md-4">
+            <%= render('templates/presentation/project',
+                       title: 'Sreality.cz', description: 'Clone of the sign in form, from the Sreality.cz account',
+                       link: {url: '/templates/forms'},
+                       img: { url: 'sreality-login.png'}) %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <%= render('templates/presentation/footer') %>
+</div>

@@ -1,9 +1,12 @@
 
 #page-forms {
+
   #sign-up-form {
-    padding: 20px;
+    padding: 30px;
     border: 1px solid #999999;
     border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   a.content {
@@ -14,21 +17,20 @@
     margin-bottom: 20px;
   }
 
-  .dropbtn {
+  #seznam-button {
     background-color: yellow;
     color: black;
     font-size: medium;
     border-bottom-right-radius: 5px;
     border-top-right-radius: 5px;
-  }
-
-  .dropdown {
+    box-sizing: border-box;
     position: relative;
     display: inline-block;
+    border-color: transparent;
+    box-shadow: none;
   }
 
-  .dropdown-content {
-    display: none;
+  .dropdown-menu {
     position: absolute;
     background-color: white;
     min-width: 160px;
@@ -40,12 +42,35 @@
     display: block;
   }
 
-  .dropdown:hover .dropbtn {
-    background-color: lightgrey;
+  .btn.btn-light {
+    border: none;
+    background-color: transparent;
+    color: #666666;
+  }
+
+  .btn.btn-light:hover {
+    background-color: transparent;
+  }
+
+  .btn.btn-light:focus {
+    border: none;
+    box-shadow: none;
+  }
+
+  .btn.btn-light:active {
+    background-color: transparent;
+    box-shadow: none;
+    border-color: transparent;
   }
 
   .input-group {
+    background-color: white;
     border-radius: 5px;
+  }
+
+  .form-control.email {
+    background-color: white;
+    box-shadow: none;
   }
 
   .form-check-label {
@@ -60,6 +85,7 @@
   .col {
     padding-left: 35px;
   }
+
   .btn-outline-primary {
     margin-left: 1px;
   }
@@ -75,26 +101,22 @@
     margin-top: 20px;
   }
 
-  .container {
-    box-sizing: inherit;
-    display: block;
-    border: #666666;
-    border-radius: 25px;
-  }
-
-  #signup-form {
+  #sign-up-form {
     background-color: #F7F7F7;
   }
+
   .date {
     padding: 1px;
     border-radius: 5px;
     height: 39px;
-    border-color: #BBBBBB;
+    border-color: transparent;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   }
 
 
   .logo {
     text-align: center;
+    margin-top: -20px;
   }
 
   h1 {

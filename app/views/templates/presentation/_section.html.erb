@@ -1,0 +1,7 @@
+<div class="media">
+  <%= image_tag(media, class: 'img rounded-circle pull-left') if local_assigns[:media] %>
+  <div class="media-body">
+    <h5 class="mt-0"><%= heading %></h5>
+    <%= yield %>
+  </div>
+</div>
