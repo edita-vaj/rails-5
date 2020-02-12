@@ -5,5 +5,5 @@
  *= require forms/_sign_up.scss
  *= require forms/_remax
  *= require forms/_presentation.scss
- *= require_self
+ *= require forms/_test.scss
  */

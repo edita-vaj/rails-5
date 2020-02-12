@@ -1,5 +1,8 @@
 <div class="card mb-4 shadow-sm">
-  <%= image_tag(img[:url], class: 'card-img top') %>
+  <a href="<%= link[:url] %>" target="_blank">
+   <%= image_tag(img[:url], class: 'card-img top') %>
+  </a>
+  <hr>
   <div class="card-body">
     <h5 class="card-title"><%= title %></h5>
     <p class="card-content text-muted">

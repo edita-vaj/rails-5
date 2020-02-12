@@ -25,9 +25,11 @@ $purple-lightest-1: lighten($purple-default, 50%);
   #presentation-header {
     background-color: $purple-default;
   }
+
   .jumbotron {
     border-top: 1px solid #e9e5ec;
     border-radius: 0;
+
     .jumbotron-heading {
       color: white;
     }
@@ -40,11 +42,6 @@ $purple-lightest-1: lighten($purple-default, 50%);
       text-decoration: underline;
     }
   }
-  img {
-    margin: 8px 15px;
-    width: auto;
-  }
-
 
   .navbar-toggler.collapsed {
     color: white;
@@ -62,7 +59,19 @@ $purple-lightest-1: lighten($purple-default, 50%);
     }
   }
 
+  .card {
+
+    .card-img {
+      width: auto;
+    }
+
+    hr {
+      margin: 0 0;
+    }
+  }
+
   .knowledge {
+
     .media {
       .media-body {
         border-left: 3px solid hsla(270, 100%, 97%, 0.12);
@@ -71,7 +80,8 @@ $purple-lightest-1: lighten($purple-default, 50%);
       }
     }
   }
+
   footer {
-    margin-top:30px;
+    margin-top: 30px;
   }
 }
