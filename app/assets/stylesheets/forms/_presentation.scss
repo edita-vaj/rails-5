@@ -53,6 +53,9 @@ $purple-lightest-1: lighten($purple-default, 50%);
   }
 
   .media {
+    img {
+      margin-right: 10px;
+    }
     h5 {
       color: #f5f3f7;
       font-weight: bold;
@@ -73,6 +76,7 @@ $purple-lightest-1: lighten($purple-default, 50%);
   .knowledge {
 
     .media {
+
       .media-body {
         border-left: 3px solid hsla(270, 100%, 97%, 0.12);
         padding-left: 20px;

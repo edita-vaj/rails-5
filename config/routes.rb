@@ -6,6 +6,6 @@ Rails.application.routes.draw do
 
  resource :edita, only: [:show]
  resources :cars
- root 'welcome#index'
+ root 'templates#view', defaults: { id: 'presentation' }
 
 end
