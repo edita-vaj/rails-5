@@ -3,103 +3,70 @@
   .fa.fa-square {
     margin-right: 10px;
   }
+
+  // TABS
+  #content-tabs {
+    a {
+      color: #666666;
+    }
+    .nav-link {
+      width: 14rem;
+      margin-top: -17px;
+      text-align: center;
+      padding-top: 1.1rem;
+      border-color: transparent;
+      background-color: transparent;
+    }
+
+    .nav-link:hover {
+      background-color: $gray-default;
+    }
+  }
+
   #primary-tab {
-    width: 14rem;
-    height: 4rem;
-    margin-top: -17px;
-    background-color: transparent;
-    border-color: transparent;
-    text-align: center;
-    padding-top: 1.1rem;
-    color: #666666;
+
+    &:focus, &:active {
+      color: red;
+      border-bottom-color: red;
+      border-bottom-style: double;
+    }
   }
 
-
-  #primary-tab:hover {
-    background-color: $gray-default;
-  }
-
-  #primary-tab:focus {
-    background-color: transparent;
-    color: red;
-    border-bottom-color: red;
-    border-bottom-style: double;
-  }
-
-  #primary-tab:active {
-    background-color: transparent;
-    color: red;
-    border-bottom-color: red;
-    border-bottom-style: double;
-  }
-   .badge.badge-danger {
-     background-color: red;
-     margin-left: 15px;
-   }
-.fa.fa-users {
-  margin-right: 10px;
-}
   #social-tab {
-    width: 14rem;
-    height: 4rem;
-    margin-top: -17px;
-    background-color: transparent;
-    text-align: center;
-    padding-top: 1.1rem;
-    border-color: transparent;
-    color: #666666;
+
+    &:focus, &:active {
+      color: blue;
+      border-bottom-color: blue;
+      border-bottom-style: double;
+    }
   }
 
-  #social-tab:hover {
-    background-color: $gray-default;
+  #promotions-tab {
+
+    &:focus, &:active {
+      color: green;
+      border-bottom-color: green;
+      border-bottom-style: double;
+    }
   }
 
-  #social-tab:focus {
-    background-color: transparent;
-    color: blue;
-    border-bottom-color: blue;
-    border-bottom-style: double;
+  .badge.badge-danger {
+    background-color: red;
+    margin-left: 15px;
   }
-  #social-tab:active {
-    background-color: transparent;
-    color: blue;
-    border-bottom-color: blue;
-    border-bottom-style: double;
+
+  .fa.fa-users {
+    margin-right: 10px;
   }
+
   .badge.badge-primary {
     margin-left: 15px;
   }
-.fa.fa-tag {
-  margin-right: 10px;
-}
-  #promotions-tab {
-    width: 14rem;
-    height: 4rem;
-    margin-top: -17px;
-    background-color: transparent;
-    border-radius: inherit;
-    text-align: center;
-    padding-top: 1.1rem;
-    border-color: transparent;
-    color: #666666;
+
+  .fa.fa-tag {
+    margin-right: 10px;
   }
 
-  #promotions-tab:hover {
-    background-color: $gray-default;
-  }
-
-  #promotions-tab:focus {
-    background-color: transparent;
-    color: green;
-    border-bottom-color: green;
-    border-bottom-style: double;
-  }
-  #promotions-tab:active {
-    background-color: transparent;
-    color: green;
-    border-bottom-color: green;
-    border-bottom-style: double;
-  }
   .badge.badge-success {
     margin-left: 15px;
   }
@@ -111,9 +78,11 @@
         top: 0.8rem;
       }
     }
+
     .star-button .fa {
       bottom: 2px;
     }
+
     .chevron-button.fa {
       position: relative;
     }
@@ -126,9 +95,10 @@
     border-radius: 25px;
     border: none;
     padding-right: 1px;
-    margin-top:-6px;
+    margin-top: -6px;
     margin-left: -7px;
   }
+
   .fa.fa-chevron-right {
     padding-left: 8px;
   }
@@ -140,7 +110,7 @@
 
   .star-button {
     background-color: transparent;
-    width:  2.3rem;
+    width: 2.3rem;
     height: 2.3rem;
     border-radius: 25px;
     box-shadow: none;
@@ -148,6 +118,7 @@
     margin-top: -6px;
     margin-left: -7px;
   }
+
   .fa.fa-star-o {
     padding-left: 3px;
   }
