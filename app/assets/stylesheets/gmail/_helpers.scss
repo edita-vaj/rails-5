@@ -1,0 +1,6 @@
+
+@mixin tab-color($color){
+  color: #{$color};
+  border-bottom-color: #{$color};
+  border-bottom-style: double;
+}

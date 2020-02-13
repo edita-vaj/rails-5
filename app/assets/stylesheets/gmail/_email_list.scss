@@ -1,3 +1,4 @@
+@import "helpers";
 
 .email-list-content {
   .fa.fa-square {
@@ -23,30 +24,24 @@
     }
   }
 
-  #primary-tab {
 
+  #primary-tab {
     &:focus, &:active {
-      color: red;
-      border-bottom-color: red;
-      border-bottom-style: double;
+      @include tab-color('red');
     }
   }
 
   #social-tab {
 
     &:focus, &:active {
-      color: blue;
-      border-bottom-color: blue;
-      border-bottom-style: double;
+      @include tab-color('blue');
     }
   }
 
   #promotions-tab {
 
     &:focus, &:active {
-      color: green;
-      border-bottom-color: green;
-      border-bottom-style: double;
+      @include tab-color('green');
     }
   }
 
