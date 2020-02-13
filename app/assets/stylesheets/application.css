@@ -3,7 +3,7 @@
  *= require _gmail
  *= require _google
  *= require forms/_sign_up.scss
- *= require forms/_remax
+ *= require forms/_remax.scss
  *= require forms/_presentation.scss
  *= require forms/_test.scss
  */
